@@ -1,0 +1,13 @@
+name: "Find Dependencies"
+author: "Kungfu Trader"
+description: "Find package dependencies"
+inputs:
+  apiKey:
+    description: "airtable apikey"
+    required: false
+  find-dependencies:
+    description: "airtable apikey"
+    required: false
+runs:
+  using: "node12"
+  main: "dist/index.js"
